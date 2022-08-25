@@ -8,16 +8,17 @@ function Navbar(){
                     <Image sx={{width:"10%",marginLeft:"100px",marginTop:"10px"}} src="https://res.cloudinary.com/urbanclap/image/upload/images/growth/home-screen/1631097450980-d2de38.png"/>
                     <Spacer/>
                    
-                    <Heading sx={{color:"white",fontSize:"18px",paddingLeft:"10px",marginTop:"13px"}}
-                    >Blog</Heading>
-                    <Heading sx={{color:"white",fontSize:"18px",paddingLeft:"40px",marginTop:"13px",textDecoration:"underline"}}>Register As A Professional</Heading>
+                 <a href="https://www.urbancompany.com/blog"><Heading sx={{color:"white",fontSize:"18px",paddingLeft:"10px",marginTop:"13px"}}
+                    >Blog</Heading></a>
+                    <a href="https://partner.urbancompany.com/?utm_source=Customer_web&utm_campaign=header&utm_medium=homepage">  <Heading sx={{color:"white",fontSize:"18px",paddingLeft:"40px",marginTop:"13px",textDecoration:"underline"}}>Register As A Professional</Heading></a>   
+                  
                     <Heading sx={{color:"white",fontSize:"18px",paddingLeft:"40px",marginTop:"13px",marginRight:"100px"}}>Login/Sign Up</Heading>
 
                 </Flex>
 
                 <Flex sx={{paddingTop:"190px",width:"70%",margin:"auto",gap:"1rem"}}>
 
-                    <Input sx={{backgroundColor:"white",width:"26%",height:"50px"}} />
+                    <Input placeholder="Enter Location" sx={{backgroundColor:"white",width:"26%",height:"50px"}} />
                     <Input placeholder="Search for Services" sx={{backgroundColor:"white",width:"66%",height:"50px"}}/>
                    </Flex>
 

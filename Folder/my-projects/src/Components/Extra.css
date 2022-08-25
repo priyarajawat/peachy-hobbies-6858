@@ -1,0 +1,33 @@
+#select{
+    padding:1rem 3rem 1rem 3rem;
+    border:1px solid rgb(143, 163, 179);
+    border-radius:6px ;
+  }
+   em{
+    font-style: italic;
+  } 
+  .p{
+   text-align: start;
+   padding-left: 1rem;
+   
+  } 
+  #li{
+    margin-bottom: 20px;
+    text-align: start;
+    padding-left: 1rem;
+    list-style-type: none;
+    margin-top: 20px;
+  } 
+  .bb{
+    
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    width: 79%;
+  margin: auto;
+  position: relative;
+  top:100px;
+  background-color: white;
+    
+  }
+   
