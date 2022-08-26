@@ -6,6 +6,7 @@ function Extra(){
             <Box sx={{width:"96%",margin:"auto"}}>
             <Flex sx={{borderBottom:"1px solid grey"}}>
                     <Image sx={{width:"10%",marginLeft:"100px",marginTop:"10px"}} src="https://res.cloudinary.com/urbanclap/image/upload/t_high_res_category/images/supply/partner-training/1628575858610-5b0ae4.png"/>
+                  
                     <Spacer/>
                    
                     <Heading sx={{color:"grey",fontSize:"20px",marginTop:"13px",fontWeight:"bold"}}

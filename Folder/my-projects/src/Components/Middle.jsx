@@ -1,4 +1,4 @@
-import { Heading, SimpleGrid,Box,Image ,Text, Flex} from "@chakra-ui/react";
+import { Heading, SimpleGrid,Box,Image ,Text, Flex, Link,} from "@chakra-ui/react";
 import PlacementExample from "./Sidebar";
 
 function Middle(){
@@ -225,10 +225,11 @@ function Middle(){
 
 
            <Flex sx={{marginTop:"10px",marginBottom:"10px"}}>
-         
           
+         
+           <Image src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_2049/t_high_res_template/images/growth/home-screen/1624344861242-558286.png" />
            
-                <Image src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_2049/t_high_res_template/images/growth/home-screen/1624344861242-558286.png" />
+             
                 
                 
          
@@ -237,7 +238,7 @@ function Middle(){
            <Box sx={{ height:"20px",backgroundColor:"lightgrey"}}></Box>
 
            
-      <Flex sx={{marginTop:"10px",marginBottom:"10px"}}>
+      <Flex sx={{marginTop:"11px",marginBottom:"10px"}}>
                 <Image src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_2049/t_high_res_template/categories/category_v2/category_3cffdf20.png" /></Flex>
            
          

@@ -14,7 +14,7 @@ import Appss from './Components/Swipebar';
 
 function App() {
   return (
-    <div className="App">
+    <div >
       <Navbar/> 
 {/* <Extra/> */}
 

@@ -55,7 +55,8 @@ function Navbar(){
                  </Box>
                <Box className="Box"  >
                <Image className="img"   src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1609757629780-2b2187.png" />
-              <Text id="two">Sales For Men</Text>
+             <a href="https://www.urbancompany.com/delhi-ncr-mens-grooming"> <Text id="two">Sales For Men</Text></a>
+             
                </Box>
                 <Box className="Box"  >
                 <Image className="img"   src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1609757731250-ba3308.png" />
