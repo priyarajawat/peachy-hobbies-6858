@@ -9,9 +9,7 @@ function PlacementExample() {
       <>
         <RadioGroup defaultValue={placement} onChange={setPlacement}>
           <Stack direction='row' mb='4'>
-          
-       
-           
+  
           </Stack>
         </RadioGroup>
         <Button colorScheme='white' onClick={onOpen}>

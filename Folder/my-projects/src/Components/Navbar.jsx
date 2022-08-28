@@ -1,4 +1,5 @@
 import { Flex,Box,Image, Spacer,Heading,Input, SimpleGrid ,Text} from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 function Navbar(){
     return(
@@ -12,7 +13,7 @@ function Navbar(){
                     >Blog</Heading></a>
                     <a href="https://partner.urbancompany.com/?utm_source=Customer_web&utm_campaign=header&utm_medium=homepage">  <Heading sx={{color:"white",fontSize:"18px",paddingLeft:"40px",marginTop:"13px",textDecoration:"underline"}}>Register As A Professional</Heading></a>   
                   
-                    <Heading sx={{color:"white",fontSize:"18px",paddingLeft:"40px",marginTop:"13px",marginRight:"100px"}}>Login/Sign Up</Heading>
+                    <Link to="/login"><Heading sx={{color:"white",fontSize:"18px",paddingLeft:"40px",marginTop:"13px",marginRight:"100px"}}>Login/Sign Up</Heading></Link>
 
                 </Flex>
 
@@ -70,7 +71,7 @@ function Navbar(){
                    </Box></div>
             
             <Box sx={{height:"300px",width:"60%",margin:"auto",paddingTop:"-800px"}}>
-                    <Heading>Home Services</Heading>
+                    <Heading sx={{display:"flex",justifyContent:"center"}}>Home Services</Heading>
                     <br/>
                     <br/> <Box sx={{boxShadow:"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",padding:"2rem",height:"180px"}}>
                     <SimpleGrid  columns={5}  >
