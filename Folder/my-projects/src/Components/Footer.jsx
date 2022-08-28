@@ -19,7 +19,7 @@ function Footer(){
                         <Text>Careers</Text>
                     </Flex>
                     <br/>
-                    <Flex sx={{color:"#fff",gap:"2rem",paddingLeft:"123px",fontSize:"16px",cursor:"pointer"}}>
+                    <Flex sx={{color:"#fff",gap:"2rem",paddingLeft:"128px",fontSize:"16px",cursor:"pointer"}}>
                         <Text>Git Crafts</Text>
                         <Text>Contact Us</Text>
                         <Text>Quick Links</Text>
@@ -27,13 +27,13 @@ function Footer(){
                     <Text sx={{borderBottom:"1px solid grey",width:"84%",margin:"auto",paddingTop:"1rem"}}></Text>
                     
                     <Heading sx={{fontSize:"17px",color:"#fff",marginLeft:"128px",display:"flex",justifyContent:"start",marginTop:"20px"}}>Serving in</Heading>
-                    <Heading sx={{fontSize:"16px",color:"#FFFFFF",marginLeft:"128px",display:"flex",justifyContent:"start",marginTop:"20px"}}>AUS</Heading>
+                    <Heading sx={{fontSize:"18px",color:"#FFFFFF",marginLeft:"128px",display:"flex",justifyContent:"start",marginTop:"20px"}}>AUS</Heading>
                     <Flex sx={{color:"#FFFFFF",marginTop:"10px",marginLeft:"123px",gap:"16px"}}>
                         <Text sx={{fontSize:"16px"}}>Melbourne</Text>
                         <Text sx={{fontSize:"16px"}}>Sydney</Text>
                     </Flex>
 
-                    <Heading sx={{fontSize:"16px",color:"#FFFFFF",marginLeft:"128px",display:"flex",justifyContent:"start",marginTop:"20px"}}>IND</Heading>
+                    <Heading sx={{fontSize:"18px",color:"#FFFFFF",marginLeft:"126px",display:"flex",justifyContent:"start",marginTop:"20px"}}>IND</Heading>
                     <ul className="list">
 
                         <li>Agra</li>
@@ -109,23 +109,23 @@ function Footer(){
                         <li><a href="https://www.urbancompany.com/visakhapatnam" target="_blank">Visakhapatnam</a></li>
                         <li><a href="https://www.urbancompany.com/warangal" target="_blank">Warangal</a></li>
                     </ul>
-                    <Heading sx={{fontSize:"16px",color:"#FFFFFF",marginLeft:"128px",display:"flex",justifyContent:"start",marginTop:"20px"}}>KSA</Heading>
+                    <Heading sx={{fontSize:"19px",color:"#FFFFFF",marginLeft:"128px",display:"flex",justifyContent:"start",marginTop:"20px"}}>KSA</Heading>
               
                     <Flex sx={{color:"#FFFFFF",marginTop:"10px",marginLeft:"123px",gap:"16px"}}>
-                        <Text sx={{fontSize:"16px"}}>Jeddah</Text>
-                        <Text sx={{fontSize:"16px"}}>Riyag</Text>
+                        <Text sx={{fontSize:"18px"}}>Jeddah</Text>
+                        <Text sx={{fontSize:"18px"}}>Riyag</Text>
                     </Flex>
 
                     <Heading sx={{fontSize:"16px",color:"#FFFFFF",marginLeft:"128px",display:"flex",justifyContent:"start",marginTop:"20px"}}>UAE</Heading>
               
                     <Flex sx={{color:"#FFFFFF",marginTop:"10px",marginLeft:"123px",gap:"16px"}}>
-                        <Text sx={{fontSize:"16px"}}>Abu Dhabi</Text>
-                        <Text sx={{fontSize:"16px"}}>Dubai</Text>
-                        <Text sx={{fontSize:"16px"}}>Sharjah</Text>
+                        <Text sx={{fontSize:"18px"}}>Abu Dhabi</Text>
+                        <Text sx={{fontSize:"18px"}}>Dubai</Text>
+                        <Text sx={{fontSize:"18px"}}>Sharjah</Text>
                     </Flex>
 
                     <Heading sx={{fontSize:"16px",color:"#FFFFFF",marginLeft:"128px",display:"flex",justifyContent:"start",marginTop:"20px"}}>UAE</Heading>
-                    <Text sx={{fontSize:"16px",color:"#FFFFFF",marginTop:"10px",display:"flex",marginLeft:"120px"}}>Austin</Text>
+                    <Text sx={{fontSize:"16px",color:"#FFFFFF",marginTop:"10px",display:"flex",marginLeft:"118px"}}>Austin</Text>
                     <Text sx={{borderBottom:"1px solid grey",width:"84%",margin:"auto",paddingTop:"1rem"}}></Text>
 
                     <Flex sx={{width:"85%",margin:"auto",paddingTop:"10px",paddingBottom:"14px"}}>

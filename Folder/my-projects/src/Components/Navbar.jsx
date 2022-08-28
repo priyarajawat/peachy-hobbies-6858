@@ -1,4 +1,5 @@
 import { Flex,Box,Image, Spacer,Heading,Input, SimpleGrid ,Text} from "@chakra-ui/react";
+import { Link } from "react-router-dom";
 
 function Navbar(){
     return(
@@ -12,7 +13,7 @@ function Navbar(){
                     >Blog</Heading></a>
                     <a href="https://partner.urbancompany.com/?utm_source=Customer_web&utm_campaign=header&utm_medium=homepage">  <Heading sx={{color:"white",fontSize:"18px",paddingLeft:"40px",marginTop:"13px",textDecoration:"underline"}}>Register As A Professional</Heading></a>   
                   
-                    <Heading sx={{color:"white",fontSize:"18px",paddingLeft:"40px",marginTop:"13px",marginRight:"100px"}}>Login/Sign Up</Heading>
+                    <Link to="/login"><Heading sx={{color:"white",fontSize:"18px",paddingLeft:"40px",marginTop:"13px",marginRight:"100px"}}>Login/Sign Up</Heading></Link>
 
                 </Flex>
 
@@ -55,7 +56,8 @@ function Navbar(){
                  </Box>
                <Box className="Box"  >
                <Image className="img"   src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1609757629780-2b2187.png" />
-              <Text id="two">Sales For Men</Text>
+             <a href="https://www.urbancompany.com/delhi-ncr-mens-grooming"> <Text id="two">Sales For Men</Text></a>
+             
                </Box>
                 <Box className="Box"  >
                 <Image className="img"   src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1609757731250-ba3308.png" />
@@ -69,7 +71,7 @@ function Navbar(){
                    </Box></div>
             
             <Box sx={{height:"300px",width:"60%",margin:"auto",paddingTop:"-800px"}}>
-                    <Heading>Home Services</Heading>
+                    <Heading sx={{display:"flex",justifyContent:"center"}}>Home Services</Heading>
                     <br/>
                     <br/> <Box sx={{boxShadow:"rgba(100, 100, 111, 0.2) 0px 7px 29px 0px",padding:"2rem",height:"180px"}}>
                     <SimpleGrid  columns={5}  >
