@@ -38,8 +38,8 @@ function Middle(){
 
             <br/>
            
-            <br/><br/>
-
+            <br/>
+            <br/>
             <Box sx={{ height:"20px",backgroundColor:"lightgrey"}}></Box>
             <Box sx={{width:"86%",margin:"auto"}}> <Heading sx={{marginTop:"100px",display:"flex",justifyContent:"center"}}>Appliances</Heading>
                 <Text sx={{marginTop:"2px",fontSize:"22px",color:"grey",fontFamily:"bold",display:"flex",justifyContent:"center"}}>Services , Repair , Installation & Uninstallation</Text>
